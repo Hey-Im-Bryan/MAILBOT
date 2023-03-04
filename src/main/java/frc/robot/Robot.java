@@ -126,8 +126,8 @@ public class Robot extends TimedRobot {
       ///if(goForAuto){
         //series of timed events making up the flow of auto
       //  System.out.println(" you are not in the the section at all ");
-        if(autoTimeElapsed < 60/35){
-          setDriveMotors(.2, 0);
+        if(autoTimeElapsed < 3){
+          setDriveMotors(-.3, 0);
           System.out.println(" You are in the first section ");
        // }else if( autoTimeElapsed < 6 && autoTimeElapsed > 3){
           //stop spitting out the ball and drive backwards *slowly* for three seconds
